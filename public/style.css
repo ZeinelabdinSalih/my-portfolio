@@ -1,0 +1,16 @@
+/* Style, Zeinelabdin Salih, ID:301446462, 02/02/2024  */ */
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Chivo', sans-serif;
+}
+
+body {
+    background-color: rgb(10, 1, 42);
+    overflow: hidden;
+    overflow-y: scroll;
+} 

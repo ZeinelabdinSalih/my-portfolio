@@ -1,0 +1,70 @@
+/* Services Page, Zeinelabdin Salih, ID:301446462, 02/02/2024 */
+
+
+#services{
+    background-color: rgb(10, 1, 42);
+    min-height: calc(110vh - 2rem);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 91rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.servicesBars {
+    margin: 1rem;
+    width: 120vh;
+    max-width: 96%;
+    justify-content: flex;
+    text-align: center;
+}
+
+.servicesBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem 13rem;
+    border-radius: 1.5rem;
+    background: rgb(50, 50, 50);
+}
+
+/* .servicesBarImg{
+    object-fit: cover;
+    height: 3rem;
+    margin-right: 2rem;
+} */
+
+.servicesBarText{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+
+.servicesBarText>p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+@media screen and (max-width:720px) {
+    .servicesBarBarText>p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .servicesBarText>p {
+        font-size: 3vw;
+    }
+    /* .servicesBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    } */
+    .servicesBarText>h2 {
+        font-size: 5vw;
+    }
+}
